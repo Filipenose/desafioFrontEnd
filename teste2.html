@@ -118,6 +118,7 @@
         opacity: 1;
         clear: all;
         height: 56px;
+        width: 1175px;;
         margin-bottom: -150px;
         margin-left: -40px;
           
@@ -204,12 +205,10 @@
         margin-top: -20px;
         
       }
-
-
       #divcentral{
        top: 70px;
       left: 74px;
-      width: 1000px;
+      width: 987px;
       height: 567px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border-radius: 5px;
@@ -217,7 +216,6 @@
       margin-left: -220px;
       margin-top: -50px;
       }
-
       #faceImg{
         top: 87px;
         left: 94px;
@@ -234,7 +232,6 @@
         opacity: 1;
       }
      #endcallImg{ 
-
         background: transparent url('img/end_call_button_hover.png') 0% 0% no-repeat padding-box;
         opacity: 1;
         float: right;
@@ -244,7 +241,6 @@
         border: 1px solid #B7BEC5;
         border-radius: 50px;
         opacity: 1;
-
       }
       #idIput{
         top: 577px;
@@ -256,8 +252,59 @@
         border-radius: 50px;
         opacity: 1;
       }
-      
+      #msg{
+        top: 577px;
+        left: 911px;
+        width: 40px;
+        height: 40px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        float: right;
+      }
+      #anexo{
+        top: 577px;
+        left: 956px;
+        width: 40px;
+        height: 40px;
+        background: #F2F2F2 0% 0% no-repeat padding-box;
+        opacity: 1;
+        float: right;
+      }
+      #gravar{
+        top: 577px;
+        left: 1001px;
+        width: 40px;
+        height: 40px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        float: right;
+      }
+      #divdireita{
+        top: 71px;
+        left: 1079px;
+        width: 900px;
+        height: 619px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        margin-left: -1000px;
+        margin-top: -50px;
+        margin-right: 500px;
 
+      }
+      #idbtnX{
+        top: 96px;
+        left: 1316px;
+        width: 20px;
+        height: 21px;
+        text-align: left;
+        font: Regular 20px/16px Material Icons;
+        letter-spacing: 0;
+        color: #B7BEC5;
+        opacity: 1;
+        float: right;
+        margin-left: 200px;
+      }
+    
     </style>
 
     <title>Olá, mundo!</title>
@@ -398,24 +445,57 @@
                 <br>
                 <br>
                 <br>
-                <hr>
+                    
+                      <div style="
+                        top: 567px;
+                        left: 93px;
+                        width: 948px;
+                        height: 0px;
+                        border: 1px solid #EBEBEB;
+                        opacity: 1;"          
+                      ></div>
+                      <br>
+                        <div id="">
+                        <input id="idIput" type="text" class="" placeholder="&#x1F600  Escreva uma mensagem "  aria-label=":)  Escreva uma mensagem">
+                        
+                        <button class="btn btn-secondary-sm" type="button" id="gravar">
+                          <img src="imgs/gravar.svg" style="">      
+                        </button>
 
-                <div class="input-group mb-3">
-  <input id="idIput" type="text" class="form-control" placeholder=":)  Escreva uma mensagem" aria-label=":)  Escreva uma mensagem" aria-describedby="button-addon2"
-  >
-  <div class="input-group-append">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2"> <img src="imgs/enviar.svg"></button>
-  </div>
-</div>
-
-
-
-
-                
- 
-        
-    
+                        <button class="btn btn-secondary-sm" type="button" id="anexo">
+                          <img src="imgs/anexo.svg" style="">      
+                        </button>
+                        <button class="btn btn-secondary-sm" type="button" id="msg">
+                          <img src="imgs/msg.svg" style="">
+                        </button>
+                        
+                        </div>
   </div> 
+
+  <div class="col-2" id="divdireita">
+      <h1 style="top: 96px;
+        left: 1099px;
+        width: 61px;
+        height: 20px;
+        text-align: left;
+        font: Bold 14px/16px Poppins;
+        letter-spacing: -0.5px;
+        color: #005DAA;
+        opacity: 1; margin-top: 20px;
+        margin-right: 100px;
+        float: left;">
+        Detalhes
+      </h1>
+
+      <button class="btn btn-light" type="button" >
+              X
+      </button>
+
+      <p>Pablo Henrique Souza de Almeida</p>
+      <p><b>Telefone: </b> 71 98854 6743 <b>Data do contato:</b> 12/08/2018 - 00:12:00 <b>Motivo:</b> Reclamação<b> Informações:</b> Número do pedido: 12345 CPF/CNPJ: 00.000.000-0000/00 Loja: Baianão Móveis (Pituba) Motivo: Montagem atrasada Protocolo: 0000000</p>
+
+    
+  </div>
 
         </div>
 
@@ -431,4 +511,3 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
-</html>
